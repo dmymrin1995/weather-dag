@@ -8,7 +8,7 @@ import pandas as pd
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-ACCESS_KEY = '0289e988-7c29-4953-8418-dd2dd9d06f29'
+ACCESS_KEY = ''
 REQUERST_URL = 'https://api.weather.yandex.ru/graphql/query'
 REQUEST_HEADERS = {
     "X-Yandex-Weather-Key": ACCESS_KEY 
